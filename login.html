@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html class="h-100" lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="CSS/facebook.css">
+</head>
+
+<body class=" d-flex flex-column h-100">
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v16.0"
+    nonce="4nQPZNwp"></script>
+  <!--JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+    integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+    crossorigin="anonymous"></script>
+  <script src="JS/javascript.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!--JS-->
+
+  <header>
+    <script>include("header", "Componentes/navbar.html")</script>
+  </header>
+
+  <!-- Main -->
+  <main class="container">
+
+    <div class="d-flex justify-content-center">
+      <!--Left-->
+      <div class="mr-5 mt-5">
+        <h3 class="text-highlight">¿No tienes una cuenta?</h3> <br> <br>
+        <div class="d-flex"><img src="IMG\descargar.png" alt="X">
+          <h4>Guarda el historial de compras y tus tickets</h4>
+        </div> <br> <br>
+        <div class="d-flex"><img src="IMG\Group.png" alt="X">
+          <h4>Compra y gana descuentos</h4>
+        </div> <br> <br>
+        <div class="d-flex"><img src="IMG\ic_outline-discount.png" alt="X">
+          <h4>Ahorra en tus envíos</h4>
+        </div> <br> <br>
+        <div class="d-flex"><img src="IMG\Corazon.png" alt="X">
+          <h4>Guarda tus tiendas favoritas</h4>
+        </div> <br> <br>
+
+        <form action="/registro.html"><button type="submit"
+            class="btn btn-warning orange-button w-25">Registrarse</button></form>
+      </div>
+      <!--Right-->
+      <div class="border-start row position-relative mt-5">
+
+        <!--Up-->
+        <div class="ml-2 justify-content-center d-flex mb-5">
+          <div>
+            <button class="loginBtn loginBtn--facebook">
+              Login with Facebook
+            </button>
+              <br>
+              <h4 style="text-align: center;">- Or -</h4>
+              <br>
+            <div id="my-signin2"></div>
+            <script src="Js/google.js"></script>
+            <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
+          </div>
+        </div>
+
+        <!--Down-->
+        <div class="border-top justify-content-center d-flex ml-2 ,t">
+          <form class="ml-2 mt-5 w-50">
+            <div class="mb-3">
+              <p>Correo electronico</p>
+              <input type="email" class="form-control" id="e-mail" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+              <p>Contraseña</p>
+              <input type="password" class="form-control" id="pwd" placeholder="******" required>
+            </div>
+            <div class="d-flex justify-content-center">
+              <button type="enviar" class="btn btn-warning orange-button">Enviar</button>
+            </div>
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <script>include("footer", "Componentes/footer.html")</script>
+  </footer>
+
+</body>
+
+</html>

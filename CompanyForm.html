@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html class="h-100" lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="CSS/facebook.css">
+</head>
+
+<body class=" d-flex flex-column h-100">
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v16.0"
+    nonce="4nQPZNwp"></script>
+  <!--JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+    integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+    crossorigin="anonymous"></script>
+  <script src="JS/javascript.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!--JS-->
+
+  <header>
+    <script>include("header", "Componentes/navbar.html")</script>
+  </header>
+
+  <!-- Main -->
+  <main class="container">
+
+    <div class="d-flex justify-content-center">
+      <!--Left-->
+      <div class="mr-5 mt-5">
+        <h3 class="text-highlight">¿No tienes una cuenta?</h3> <br> <br>
+        <div class="d-flex">
+          <h5>Empieza a vender en nuestra web, sin ningun tipo de comisión.</h5>
+        </div> <br> <br>
+        <div class="d-flex">
+          <h5>Aumenta el alcanze de tus ventas</h5>
+        </div> <br> <br>
+        <div class="d-flex">
+          <h5>Disponemos de un mercado unificado, facilitando la <br> compra
+            a los clientes a traves de nuestra web.</h5>
+        </div> <br> <br>
+        <div class="d-flex">
+          <h5>Personaliza la vista de tu tienda</h5>
+        </div> <br> <br>
+        <div class="d-flex">
+          <h5>Promociona tus ofertas y novedades</h5>
+        </div> <br> <br>
+
+        <form action="/registro.html"><button type="submit"
+            class="btn btn-warning orange-button w-25">Registrarse</button></form>
+      </div>
+      <!--Right-->
+      <div class="border-start row position-relative mt-5" d-fle>
+        <form id="form" class="ml-10" action="/index.html" class="" method="GET" required>
+          <div class="mb-3">
+            <p>Nombre de la empresa</p>
+            <input type="text" class="form-control" id="Cname" placeholder="Company's name" required>
+          </div>
+          <div class="mb-3">
+            <p>e-mail de la empresa</p>
+            <input type="email" class="form-control" id="cemail" placeholder="example@example.com" required>
+          </div>
+          <div class="mb-3">
+            <p>Numero de contacto</p>
+            <input type="number" maxlength="13" class="form-control" id="cnum" placeholder="123456789" required>
+          </div>
+          <div class="mb-3">
+            <p>Direccion de la sede</p>
+            <input type="text" class="form-control" id="cdirection" placeholder="Direction" required>
+          </div>
+          <div class="mb-3">
+            <p>Sector al que se dedica</p>
+            <input type="text" class="form-control" id="csector" placeholder="Sector" required>
+          </div>
+          <div class="d-flex justify-content-center">
+            <button type="submit" class="btn btn-outline-warning orange-button">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <script>include("footer", "Componentes/footer.html")</script>
+  </footer>
+
+</body>
+
+</html>
