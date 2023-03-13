@@ -17,9 +17,17 @@ body{
    display: flex; /* Establece el contenedor como flex */
   justify-content: center; /* Alinea las figuras con espacio entre ellas */
   align-items: center; /* Centra verticalmente las figuras */
-
   flex-wrap: wrap; /* Permite que los elementos se ajusten a la línea siguiente */
 }
+
+.main{
+  margin-top: 8rem;
+   margin-left: 8rem;
+   margin-right: 8rem;
+   
+  
+}
+
 
 .card{
     margin: 2rem;
