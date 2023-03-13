@@ -109,7 +109,7 @@ p{
     outline: none;
     border: 0px;
     border-radius: 30px;
-    transition: all 0.6s ease-in-out; 
+    transition: all 0.6s ease-in-out;
   }  
   .cart button p{
     display: inline-block;
