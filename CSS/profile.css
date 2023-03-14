@@ -1,0 +1,75 @@
+body{
+    background-color: rgba(255, 242, 210, 0.50);
+}
+
+#gi-principal{
+    box-sizing: border-box;
+    position: center;
+    width: 50%;
+    display: flex;
+    margin:auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: 3px solid #000000;
+    filter: drop-shadow(0px 4px 4px rgba(252, 205, 95, 0.25));
+    border-radius: 5px;
+}
+
+#categories{
+    border: 3px solid black
+    
+}
+
+#div-info{
+    text-align: center;
+    border-left: 3px solid #000000;
+}
+
+#img-perfil-central{
+    width: 50%;
+    position: relative;
+    margin: auto;
+}
+
+#div-text{
+    text-align: center;
+    margin: auto;
+}
+
+.column-div-info{
+    background: #FFFFFF;
+    border-radius: 10px;
+    text-align: center;
+    margin: 7%;
+
+}
+
+.column-div-info p {
+    margin: auto;
+}
+
+#imagen-numero-pedidos{
+    width: 40%;
+    position: relative;
+    margin:auto;
+}
+
+h4{
+    font-size: medium;
+}
+
+.cosa{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.secciones{
+    display: inline-flex;
+    
+    
+}
+
+.cosita{
+    justify-content: space-between;
+}
+
