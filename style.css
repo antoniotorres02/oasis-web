@@ -177,7 +177,6 @@ p{
     width: 56px;
     height: 55px;
     display: inline-table;
-    text-align: start;
   }
   .marco1{
     background-color: #D9D9D9;
@@ -189,4 +188,35 @@ p{
     margin-left: 3em;
     padding-top: 1em;
     text-align: center;
+
+  }
+  .marco2{
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    width: 195px;
+    height: 165px;
+    display: inline-table;
+    margin: auto;
+    margin-left: 3em;
+    padding-top: 1em;
+    text-align: center;
+    
+  }
+  .marco3{
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    width: 195px;
+    height: 165px;
+    display: inline-table;
+    margin: auto;
+    margin-left: 3em;
+    padding-top: 1em;
+    text-align: center;
+    
+  }
+  .marco1 img{
+    display: inline-table;
+  }
+  .marco2 img{
+    display: inline-table;
   }
