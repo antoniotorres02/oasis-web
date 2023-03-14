@@ -121,7 +121,7 @@ p{
   }
 
   .cart:hover button {
-    width: 200px;
+    width: 200px; 
   }
   
   .cart:hover button p{
@@ -148,5 +148,8 @@ p{
   .input-group button{
     background-color: rgba(46, 79, 79, 0.75);
     border: none;
-
+    outline: none;
+  }
+  .input-group input::placeholder{
+    color: #CBE4DE;
   }
