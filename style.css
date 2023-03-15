@@ -140,9 +140,16 @@ p{
     margin-top: 10%;
   }
 
-  .form-control{
+  .input-group input{
+    max-width: 100%;
+    max-height: 100%;
     border: none;
+    border-radius: 7px;
+    width: 900px;
     background-color: rgba(46, 79, 79, 0.75);
+    margin-left: 30em;
+    text-indent: 1em;
+
   }
 
   .input-group button{
@@ -154,6 +161,11 @@ p{
     color: #CBE4DE;
   }
 
+  .input-group input:hover{
+    border: solid;
+    background-color: white;
+    border-color: rgba(46, 79, 79, 0.75);
+  }
   .btn_marcos{
     border-radius: 50%;
     width: 56px;
@@ -180,7 +192,7 @@ p{
     transition: transform 1s ease-in-out;
   }
   .imagen_marco:hover{
-    transform: rotate(360deg);
+    transform: rotate(180deg);
   }
   .marco1{
     background-color: #D9D9D9;
@@ -239,4 +251,10 @@ p{
     max-height: 100%;
     padding-bottom: 1em;
     margin-top: 1em;
+  }
+
+  .logo{
+    width: 500px;
+    margin-left: 42em;
+    padding-top: 5em;
   }
