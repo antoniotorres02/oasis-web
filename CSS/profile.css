@@ -16,7 +16,9 @@ body{
 }
 
 #categories{
-    border: 3px solid black
+    border: 3px solid black;
+    justify-content: space-between;
+    background-color: #FCCD5F;
     
 }
 
@@ -63,13 +65,17 @@ h4{
     margin-right: 2%;
 }
 
-.secciones{
+#secciones{
     display: inline-flex;
-    
-    
+    justify-content: space-between;
+    margin: auto;
 }
 
 .cosita{
     justify-content: space-between;
+    color: #000000;
+    border: 1px solid #000000;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
 }
 
