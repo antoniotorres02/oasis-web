@@ -35,13 +35,15 @@ p{
     transition: all 0.6s ease-in-out; 
   }
 
-  .login button p{
+  .login button a{
     display: inline-block;
     margin: 0;
     line-height: 43px;
     width: 100%;
     transition: all 0.6s ease-in-out;
     transform: scale(0, 1);
+    text-decoration: none;
+    color: black;
   }
 
   .btn2_login img{
@@ -83,7 +85,7 @@ p{
     width: 200px;
   }
   
-  .login:hover button p{
+  .login:hover button a{
     transform: scale(1, 1);
     
   }
@@ -109,14 +111,14 @@ p{
     outline: none;
     border: 0px;
     border-radius: 30px;
-    transition: all 0.6s ease-in-out;
+    transition: all 3s ease-in-out;
   }  
   .cart button p{
     display: inline-block;
     margin: 0;
     line-height: 43px;
     width: 100%;
-    transition: all 0.6s ease-in-out;
+    transition: all 3s ease-in-out;
     transform: scale(0, 1);
   }
 
@@ -179,7 +181,6 @@ p{
   
   .marcos_tiendas{
     width: 50%;
-    overflow: hidden;
     text-align: start;
     margin: auto;
     margin-left: 25em;
@@ -220,6 +221,18 @@ p{
     margin-left: 3em;
     padding-top: 1em;
     text-align: center;
+  }
+  .marco1:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 10px black;
+  }
+  .marco2:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 10px black;
+  }
+  .marco3:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 10px black;
   }
   .marco3{
     background-color: #D9D9D9;
