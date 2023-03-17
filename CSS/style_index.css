@@ -1,15 +1,15 @@
 body{
     background-color: rgba(255, 242, 210, 0.5);
-}
-.navbar{
+  }
+  .navbar{
     background-color: #FCCD5F;
-}
-
-p{
+  }
+  
+  p{
     color:black;
-}
-
-* {
+  }
+  
+  * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -18,8 +18,7 @@ p{
   
   .login {
     position: absolute;
-    margin-left: 75%;
-    margin-top: 1%;
+    margin: 1em 101em auto;
   }
   
   .login button {
@@ -34,18 +33,19 @@ p{
     border-radius: 30px;
     transition: all 0.6s ease-in-out; 
   }
-
+  
   .login button a{
     display: inline-block;
-    margin: 0;
+    right: 0;
+    top: 0;
     line-height: 43px;
     width: 100%;
-    transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease;
     transform: scale(0, 1);
     text-decoration: none;
     color: black;
   }
-
+  
   .btn2_login img{
     vertical-align: sub;
   }
@@ -67,19 +67,7 @@ p{
     border-radius: 50%;
     cursor: pointer;
   }
-  .btn2_cart {
-    width: 43px;
-    height: 43px;
-    line-height: 44px;
-    top: 0;
-    left: 0;
-    position: absolute;
-    background: #FCCD5F;
-    text-align: center;
-    font-size: 18px;
-    border-radius: 50%;
-    cursor: pointer;
-  }
+  
   
   .login:hover button {
     width: 200px;
@@ -89,59 +77,77 @@ p{
     transform: scale(1, 1);
     
   }
-
+  
   .login button:focus {
     width: 200px;
   }
   
-
+  
   .cart{
-    position: absolute;
-    margin-left: 87%;
-    margin-top: 1%;
+    position: relative;
+    margin: 1em 117em  auto;
   }
-
+  
   .cart button {
     width: 0;
     height: 100%;
     text-align: center;
+    position: relative;
     padding: 0 21px;
     font-size: 18px;
     background-color:#D9D9D9;
     outline: none;
     border: 0px;
     border-radius: 30px;
-    transition: all 3s ease-in-out;
-  }  
+    transition: all 0.6s ease;
+    float: right; /*esta cosa malvada hace que se quede el eje x(0,0) en la derecha que loco no?*/
+  } 
+
+  .btn2_cart {
+    width: 43px;
+    height: 43px;
+    line-height: 44px;
+    top: 0;
+    right: 0;
+    position: absolute;
+    background: #FCCD5F;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
   .cart button p{
     display: inline-block;
     margin: 0;
     line-height: 43px;
     width: 100%;
-    transition: all 3s ease-in-out;
+    transition: transform 0.6s ease-in-out;
     transform: scale(0, 1);
   }
 
+
   .cart:hover button {
     width: 200px; 
+    
+  }
+  .cart button:focus{
+    width: 200px;
   }
   
   .cart:hover button p{
     transform: scale(1, 1);
     
   }
-
-  .cart button:focus {
-    width: 200px;
-  }
-
+  
+  
   .input-group {
     width: 50%;
     vertical-align: sub;
     margin: auto;
     margin-top: 10%;
   }
-
+  
   .input-group input{
     max-width: 100%;
     max-height: 100%;
@@ -151,9 +157,9 @@ p{
     background-color: rgba(46, 79, 79, 0.75);
     margin-left: 30em;
     text-indent: 1em;
-
+  
   }
-
+  
   .input-group button{
     background-color: rgba(46, 79, 79, 0.75);
     border: none;
@@ -162,7 +168,7 @@ p{
   .input-group input::placeholder{
     color: #CBE4DE;
   }
-
+  
   .input-group input:hover{
     border: solid;
     background-color: white;
@@ -207,7 +213,7 @@ p{
     margin-left: 3em;
     padding-top: 1em;
     text-align: center;
-
+  
   }
   .marco2{
     background-color: #D9D9D9;
@@ -258,14 +264,14 @@ p{
     padding-bottom: 3.3em;
     margin-top: 2em;
   }
-
+  
   .marco3 img{
     max-width: 100%;
     max-height: 100%;
     padding-bottom: 1em;
     margin-top: 1em;
   }
-
+  
   .logo{
     width: 500px;
     margin-left: 42em;
