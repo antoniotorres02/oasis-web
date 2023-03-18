@@ -1,4 +1,3 @@
-
 .navbar{
     background-color: #FCCD5F;
 }
@@ -109,7 +108,7 @@
   .btn_log_cart{
     position: absolute;
     margin: 0 100em auto;
-    width: 300px;
+    width: 200px;
   }
   .cart button {
     width: 0;
@@ -197,6 +196,7 @@
     position: absolute;
     width: 600px;
     margin:0 40em auto;
+    margin-top: 1em;
   }
   
   .input-group input{
