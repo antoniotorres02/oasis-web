@@ -2,6 +2,7 @@ body {
     height: 95vh;
 }
 
+
 .shop_profile_container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -47,6 +48,7 @@ body {
 .right_side_div {
     grid-column: 2 / span 3;
     background-color: #FFFFFF;
+    width: 100%;
     padding: 30px;
     position: relative;
 }
@@ -81,8 +83,14 @@ body {
 
 #contenedor_mi_tienda {
     height: 95%;
-    width: max-content;
+    width: 95%;
     background-color: #fccd5fa9;
+    border-radius: 10px;
+}
+
+#contenedor_mi_tienda iframe{
+    width: 100%;
+    height: 100%;
     border-radius: 10px;
 }
 
@@ -125,4 +133,54 @@ body {
 
 .pedido #state {
     grid-column: 2 / span 2;
+}
+
+#contenedor_mi_informacion {
+    width: 95%;
+    width: 95%;
+    background-color: #fccd5fa9;
+    padding: 10px;
+    border-radius: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    row-gap: 20px;
+}
+
+#contenedor_mi_informacion h1 {
+    grid-column: span 2;
+}
+
+#contenedor_mi_informacion input_info {
+    padding: 3px;
+    border-radius: 3px;
+    border: 2px solid rgb(192, 192, 192);
+    transition: border 0.5s;
+}
+
+#contenedor_mi_informacion input_info:focus{
+    outline: none;
+    border: 2px solid rgb(92, 92, 92);
+}
+
+#contenedor_mi_informacion button {
+    margin-top: 20px;
+    font-size: large;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.671);
+    border: 2px solid rgba(0, 0, 0, 0.671) ;
+    padding: 3px;
+    border-radius: 10px;
+    transition: border 0.25s, color 0.25s;
+    background-color: transparent;
+    grid-column: span 2;
+}
+
+#contenedor_mi_informacion textarea {
+    padding: 10px;
+    grid-column: span 2;
+}
+
+.long_input {
+    grid-column: span 2;
+    height: 3em;
 }
