@@ -2,8 +2,9 @@
     background-color: #FCCD5F;
 }
 .container-fluid{
+  position: absolute;
   display: flex;
-  align-items: start;
+  justify-items: center;
 }
 .btn_cerrar{
     border: none;
@@ -13,29 +14,41 @@
     transition: all 0.6s;
 }
 .div_logo{
+  position: absolute;
   background-color: rgba(46, 79, 79, 1);
   width: 100px;
   height: 35.45px;
   border-radius: 5px;
-  margin:auto;
-  margin-left: 1em;
 }
+
+.div_logo_barra{
+  position: absolute;
+  margin: auto;
+  display: flex;
+  margin-top: 1em;
+  margin-left: 5em;
+}
+
 .logo{
   position: absolute;
   width: 100px;
 }
+
 .btn_cerrar:hover{
-    transform: scale(1.01);
-    box-shadow: 0 0 5px #2192FF;
-    border: #2192FF 2px solid;
-    border-radius: 7px;
+  transform: scale(1.01);
+  box-shadow: 0 0 5px #2192FF;
+  border: #2192FF 2px solid;
+  border-radius: 7px;
 }
 
 .login {
-    position: absolute;
-    margin: 0 2em auto;
-  }
-  
+  position: absolute;
+  margin-left: 92em;
+}
+.cart{
+  position: absolute;
+  margin-left: 105em;
+}
   .login button {
     width: 0;
     height: 100%;
@@ -98,18 +111,6 @@
     width: 200px;
   }
   
-  
-  .cart{
-    position: relative;
-    margin:0 18em auto;
-    
-  }
-  
-  .btn_log_cart{
-    position: absolute;
-    margin: 0 100em auto;
-    width: 200px;
-  }
   .cart button {
     width: 0;
     height: 100%;
@@ -122,7 +123,7 @@
     border: 0px;
     border-radius: 30px;
     transition: all 0.6s ease;
-    float: right; /*esta cosa malvada hace que se quede el eje x(0,0) en la derecha que loco no?*/
+    float: left; /*esta cosa malvada hace que se quede el eje x(0,0) en la derecha que loco no?*/
   } 
 
   .btn2_cart {
@@ -130,7 +131,7 @@
     height: 43px;
     line-height: 44px;
     top: 0;
-    right: 0;
+    left: 0;
     position: absolute;
     background: rgba(46, 79, 79, 1);
     text-align: center;
@@ -195,8 +196,7 @@
    .input-group {
     position: absolute;
     width: 600px;
-    margin:0 40em auto;
-    margin-top: 1em;
+    margin: auto;
   }
   
   .input-group input{
@@ -206,7 +206,7 @@
     border-radius: 7px;
     width: 500px;
     background-color: rgba(46, 79, 79, 0.75);
-    /*margin-left: 30em;*/
+    margin-left: 30em;
     text-indent: 1em;
   
   }
