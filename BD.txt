@@ -1,0 +1,2 @@
+En firebase en la ruedita "Configuracion del proyecto", abajo en "Tus apps"
+se crea la web app y nos da los archivos de configuracion inicial

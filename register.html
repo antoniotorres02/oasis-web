@@ -10,6 +10,8 @@
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
   <link rel="stylesheet" href="CSS/style.css">
   <link rel="stylesheet" href="CSS/facebook.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
 </head>
 
 <body class=" d-flex flex-column h-100">
@@ -44,10 +46,10 @@
     </div>
     <div class=" container d-flex mt-2 justify-content-center border-top">
       <div class="w-25 mt-2">
-        <form id="form" action="/login.html" class="" method="GET" requied>
+        <form id="form" target="frame">
           <div class="mb-3">
             <p>Usuario</p>
-            <input type="text" class="form-control" id="e-mail" placeholder="User" required>
+            <input type="text" class="form-control" id="user" placeholder="User" required>
           </div>
           <div class="mb-3">
             <p>Contraseña</p>
@@ -59,7 +61,8 @@
           <div class="mb-3">
             <p>Repetir contraseña</p>
             <input type="password" maxlength="15" class="form-control" id="rpwd" placeholder="********" required>
-            <div class="invalid-feedback">
+            <div class="invalid-feedback">********
+
               Las contraseñas tienen que ser iguales
             </div>
           </div>
@@ -71,8 +74,9 @@
             <button type="submit" class="btn btn-outline-warning orange-button">Enviar</button>
           </div>
         </form>
+        <iframe name="frame" style="display:none;"></iframe>
         <!--Validation-->
-        <script src="JS/formvalidation.js"></script>
+        <script type="module" src="JS/formvalidation.js"></script>
         <!--Validation-->
       </div>
     </div>
@@ -81,7 +85,7 @@
   <footer>
     <script>include("footer", "Componentes/footer.html")</script>
   </footer>
-
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
 </body>
-
+  <!--Firebase-->
 </html>
