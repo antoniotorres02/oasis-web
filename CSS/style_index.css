@@ -275,14 +275,17 @@ p{
 .marco1:hover{
   transform: scale(1.05);
   box-shadow: 0 0 10px black;
+  transition: all 0.6s ease;
 }
 .marco2:hover{
   transform: scale(1.05);
   box-shadow: 0 0 10px black;
+  transition: all 0.6s ease;
 }
 .marco3:hover{
   transform: scale(1.05);
   box-shadow: 0 0 10px black;
+  transition: all 0.6s ease;
 }
 .marco3{
   background-color: #D9D9D9;
