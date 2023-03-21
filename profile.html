@@ -27,7 +27,7 @@
         integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
         crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="JS/profile.js"></script>
+    
     <!--JS-->
 
 
@@ -62,30 +62,44 @@
         </div>
         <div class="row" id="categories">
             <div id="secciones">
-                <button type="button" class="btn btn-outline-secondary cosita">Pedidos en Curso</button>
-                <button type="button" class="btn btn-outline-secondary cosita">Historial de Pedidos</button>
-                <button type="button" class="btn btn-outline-secondary cosita">Lista de deseos</button>
-                <button type="button" class="btn btn-outline-secondary cosita">Soporte técnico</button>
-                <button type="button" class="btn btn-outline-secondary cosita">Configuración</button>
+                <button type="button" class="btn btn-outline-secondary cosita" onclick="cambiar(s_categories);">Pedidos en Curso</button>
+                <button type="button" class="btn btn-outline-secondary cosita" onclick="cambiar(s_historial);">Historial de Pedidos</button>
+                <button type="button" class="btn btn-outline-secondary cosita" onclick="cambiar(s_wishlist);">Lista de deseos</button>
+                <button type="button" class="btn btn-outline-secondary cosita" onclick="cambiar(s_queries);">Soporte técnico</button>
+                <button type="button" class="btn btn-outline-secondary cosita" onclick="cambiar(s_profileData);">Configuración</button>
             </div>
 
         </div>
-        <div id="s-categories">
-            <h2>DIV DE CATEGORIAS</h2>
+        <div id="s_categories">
+            <div id="header_auxiliar_h">
+                <h2>Historial de Pedidos</h2>
+                <p>Fecha: 2023</p>
+                <p>Ordenar por:  Fecha Decreciente</p>
+            </div>
+            <div class="pedido">
+                <div class="pedido_header">
+                    <p>Nº Pedido: 6969696969</p>
+                    <p>Fecha de creación: 21/03/2023</p>
+                </div>
+                <div class="pedido_botones">
+
+                </div>
+            </div>
         </div>
-        <div id="s-historial">
+        <div id="s_historial">
             <h2>div de historial</h2>
         </div>
-        <div id="s-wishlist">
+        <div id="s_wishlist">
             <h2>div de lista de deseos</h2>
         </div>
-        <div id="s-queries">
+        <div id="s_queries">
             <h2>div de consultas</h2>
         </div>
-        <div id="s-profileData">
+        <div id="s_profileData">
             <h2>datos de mi cuenta</h2>
         </div>
     </main>
+    <script src="JS/profile.js"></script>
 </body>
 
 </html>

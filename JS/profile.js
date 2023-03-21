@@ -5,24 +5,34 @@ function ocultar(id){
     id.style.display = "none";
 }
 
-function continuar(id){
-    var div_s_categories = document.getElementById('s-categories');
-    var div_s_historial = document.getElementById('s-historial');
-    var div_delivery_options = document.getElementById('delivery-options');
-    var div_payment = document.getElementById('payment');
-    var div_resume = document.getElementById('resume');
+const div_s_categories = document.getElementById('s_categories');
+const div_s_historial = document.getElementById('s_historial');
+const div_s_wishlist = document.getElementById('s_wishlist');
+const div_s_queries = document.getElementById('s_queries');
+const div_s_profileData = document.getElementById('s_profileData');
 
-    const arrayIds = [div_cest, div_shipment_directions, div_delivery_options, div_payment, div_resume];
+function cambiar(id){
+    const arrayIds = [div_s_categories, div_s_historial, div_s_wishlist, div_s_queries, div_s_profileData];
     arrayIds.forEach(ocultar);
-
-    if(id == 'shipment-directions'){
-        div_shipment_directions.style.display = "inline-flex"
+    arrayIds.forEach(ocultar);
+    
+    if(id == div_s_categories){
+        id.style.display="initial";
     }
-    else if(id == 'resume'){
-        div_resume.style.display = "inline-flex"
+    else if(id == div_s_historial){
+        id.style.display = "initial";
     }
+    else if(id == div_s_wishlist){
+        id.style.display = "initial";
+    }
+    else if(id == div_s_queries){
+        id.style.display = "initial";
+    }
+    else if(id == div_s_profileData){
+        id.style.display = "initial";
+    }  
     else{
-        mostrar(document.getElementById(id));
-    }
+        id.style.display = "initial";
+    } 
 }
 

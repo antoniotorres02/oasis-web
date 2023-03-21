@@ -79,3 +79,78 @@ h4{
     margin-bottom: 0.5%;
 }
 
+#s_categories{
+    display: initial;
+    text-align: center;
+    padding-bottom: 20%;
+}
+
+#s_historial{
+    display: none;
+    
+}
+
+#s_wishlist{
+    display: none;
+}
+
+#s_queries{
+    display:none;
+}
+
+#s_profileData{
+    display: none;
+}
+
+/*Contenido de s_categories */
+
+#header_auxiliar_h{
+    box-sizing: border-box;
+    position: center;
+    width: 60%;
+    display: flex;
+    margin:auto;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    
+
+}
+#header_auxiliar_h h2{
+    font-size: medium;
+    padding: 1% 5% 1%;
+    
+}
+
+#header_auxiliar_h p{
+    font-size: medium;
+    padding: 1% 5% 1%;
+    
+}
+
+.pedido{
+    box-sizing: border-box;
+    display: flex;
+    margin:auto;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    position: center;
+
+    width: 60%;
+    
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+.pedido_header{
+    display:inline-flex;
+    width: 100%;
+    padding: 0.5% 1% 2% 1%; /* top, right, bottom, left */
+}
+
+.pedido_header p{
+    padding-right: 4%;
+}
