@@ -12,7 +12,7 @@ print("======================== HTML ==========================")
 print(contenido)
 
 
-css = soup.find('.css').get_text()
+css = soup.find('css.css').get_text()
 
 print("======================== CSS ==========================")
 print(css)
