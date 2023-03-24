@@ -148,9 +148,19 @@ h4{
 .pedido_header{
     display:inline-flex;
     width: 100%;
-    padding: 0.5% 1% 2% 1%; /* top, right, bottom, left */
+    padding: 0.5% 1% 1% 1%; /* top, right, bottom, left */
 }
 
 .pedido_header p{
     padding-right: 4%;
+}
+
+.pedido_botones{
+    display: inline-flex;
+}
+.pedido_boton{
+    color: #000000;
+    border: 1px solid #000000;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
 }
