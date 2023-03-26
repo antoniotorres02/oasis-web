@@ -1,9 +1,11 @@
+
 .navbar{
     background-color: #FCCD5F;
+    display: grid;
 }
 .container-fluid{
   position: absolute;
-  display: flex;
+  display: grid;
   justify-items: center;
 }
 .btn_cerrar{
