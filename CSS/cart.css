@@ -6,7 +6,7 @@
     position: absolute;
     width: 700px;
     height: 396px;
-    background-color: rgb(169 169 169);
+    background-color: rgb(231 228 228);
     top: 178px;
     left: 100px;
     border-radius: 24.27px;
@@ -17,7 +17,7 @@
     position: absolute;
     width: 380px;
     height: 396px;
-    background-color: rgb(169 169 169);
+    background-color: rgb(251 231 211);
     top: 178px; 
     left: 885px;
     border-radius: 24.27px;
@@ -48,13 +48,7 @@
   height: 100%;
 }
 
-.logoCart {
-    position: absolute;
-    width: 20%;
-    height: 20%;
-    top: 60px;
-    left: 30px;
-  }
+
 
   #header{
     color: rgb(79, 79, 79);
@@ -81,9 +75,11 @@
   }
 
   #total-cost{
-    position: absolute;
-    top: 333px;
-    left: 505px;
+
+    margin: 70px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .cartLine{
@@ -276,6 +272,7 @@
     text-decoration: none;
     display: inline-block;
     font-size: 30px;
+    font-weight: 500;
     margin: 0px 0px;
     cursor: pointer;
     top: 321px;
